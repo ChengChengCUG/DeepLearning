@@ -27,7 +27,7 @@ depth_map = np.zeros_like(img, dtype=np.float32)
 normal_map = np.zeros((h, w, 3), dtype=np.float32)
 
 # 最大迭代次数
-max_iterations = 2000
+max_iterations = 100
 
 # Jacobi迭代
 for _ in range(max_iterations):
